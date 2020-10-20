@@ -27,9 +27,9 @@ The images below show the result after 5 iterations. We can see that the denoise
 we can get a satisfactory result even with lesser number of iterations with denoising. 
 
 <p float="left">
- <img src="/img/denoise/noise.png" height = "270" width = "270" />[Noisy Image] 
- <img src="/img/denoise/blur.png" height = "270" width = "270" />[Blurred]
- <img src="/img/denoise/gbuf.png" height = "270" width = "270" />[Denoised]
+ <img src="/img/denoise/noise.png" height = "250" width = "250" />
+ <img src="/img/denoise/blur.png" height = "250" width = "250" />
+ <img src="/img/denoise/gbuf.png" height = "250" width = "250" />
 </p>
 
 - Impact on denoising on runtime
@@ -48,8 +48,8 @@ type during path tracing so we observe that smoothing is unaffected by material 
 The images below show the outputs at filter sizes 3, 4 and 5 respectively. For my denoiser, a filter size of 4 works decently. 
 
 <p float="left">
- <img src="/img/denoise/comp_filter_3.png" height = "270" width = "270" />[Filter Size 3] 
- <img src="/img/denoise/comp_filter_4.png" height = "270" width = "270" />[Filter Size 4]
- <img src="/img/denoise/comp_filter_5.png" height = "270" width = "270" />[Filter Size 5]
+ <img src="/img/denoise/comp_filter_3.png" height = "250" width = "250" />
+ <img src="/img/denoise/comp_filter_4.png" height = "250" width = "250" />
+ <img src="/img/denoise/comp_filter_5.png" height = "250" width = "250" />
 </p>
 
