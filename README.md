@@ -35,6 +35,8 @@ Per-pixel metrics can include scene geometry information (hence G-buffer), such 
 
 ## Edge Avoiding À-Trous Filter Algorithm 
 
+This algorithm takes the ray traced image, position and normal buffers as input and produces a denoised image as output. In our approach, we store the position and normals after the first bounce
+in G-Buffers. We also use Ping pong buffers for the output since reading and writing to the same buffer can cause race conditions.
 <img src="/img/denoise/algo.png"/>
 
 Each iteration of the À-Trous algorithm (with increasing step width) corresponds to computing one more level of the wavelet analysis which also corresponds to doubling the filter size.
